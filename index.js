@@ -1,17 +1,41 @@
-let routine = [
-  function wakeDog() {
-  console.log(`Wake Byron the poodle`);
-},function leashDog() {
-  console.log(`Wake Byron the poodle`);
-},function walkToPark() {
-  console.log(`Wake Byron the poodle`);
-},function throwFrisbee() {
-  console.log(`Wake Byron the poodle`);
-},function walkHome() {
-  console.log(`Wake Byron the poodle`);
-},function unleashDog() {
-  console.log(`Wake Byron the poodle`);
-}]
+// const arr = [function wakeDog() {
+//   const a = "Xerox"
+//   const b = "Border Collie"
+//   console.log(`Wake ${a} the ${b}`);
+// },function wakeDog() {
+//   console.log("Leash Byron the poodle");
+// },function wakeDog() {
+//   console.log("Walk to the park with Byron the poodle");
+// },function wakeDog() {
+//   console.log("Throw the frisbee for Byron the poodle");
+// },function wakeDog() {
+// console.log("Walk home with Byron the poodle");
+// },function wakeDog() {
+//   console.log("Unleash Byron the poodle");
+// }];
 function wakeDog(dogName, dogBreed) {
+  
   console.log(`Wake ${dogName} the ${dogBreed}`);
 }
+function leashDog(dogName, dogBreed) {
+  
+  console.log(`Leash ${dogName} the ${dogBreed}`);
+}
+function walkToPark(dogName, dogBreed) {
+  
+  console.log(`Walk to the park with ${dogName} the ${dogBreed}`);
+}
+function throwFrisbee(dogName, dogBreed) {
+  
+  console.log(`Throw the frisbee for ${dogName} the ${dogBreed}`);
+}
+function walkHome(dogName, dogBreed) {
+  
+  console.log(`Walk home with ${dogName} the ${dogBreed}`);
+}
+function unleashDog(dogName, dogBreed) {
+
+  console.log(`Unleash  ${dogName} the ${dogBreed}`);
+}
+let routine = [
+];
